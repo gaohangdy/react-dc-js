@@ -1,5 +1,5 @@
 {
-  "name": "react-dc-js",
+  "name": "@cloud-dashboard/react-dc-js",
   "version": "0.2.0-beta",
   "description": "🚀 Multi-dimensional charting based on dc.js for React",
   "main": "dist/react-dc.umd.js",
@@ -66,7 +66,7 @@
     "eslint-plugin-prettier": "^3.1.3",
     "eslint-plugin-react": "^7.20.0",
     "eslint-plugin-react-hooks": "2.5.1",
-    "flow-bin": "^0.135.0",
+    "flow-bin": "^0.160.2",
     "jest": "^26.0.1",
     "lint-staged": "^10.2.6",
     "prettier": "^2.0.5",
