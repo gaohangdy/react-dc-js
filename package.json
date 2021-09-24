@@ -24,7 +24,7 @@
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/dc-js/react-dc-js"
+    "url": "git@github.com:gaohangdy/react-dc-js.git"
   },
   "bugs": "https://github.com/dc-js/react-dc-js/issues",
   "lint-staged": {
@@ -92,5 +92,8 @@
       "<rootDir>/(build|docs|node_modules|playground)/"
     ],
     "testEnvironment": "jsdom"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   }
 }
