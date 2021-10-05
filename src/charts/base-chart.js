@@ -7,7 +7,7 @@ import { combineMixins } from '../utils'
 import { ChartRegistry } from './chart-context'
 import { useChart } from './use-chart'
 
-import 'dc/dist/style/dc.css'
+import '@gaohangdy/dc/dist/style/dc.css'
 
 /**
  * A generic chart component factory

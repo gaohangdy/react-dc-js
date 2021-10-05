@@ -1011,6 +1011,14 @@
     exec-sh "^0.3.2"
     minimist "^1.2.0"
 
+"@gaohangdy/dc@^1.0.12":
+  version "1.0.12"
+  resolved "https://npm.pkg.github.com/download/@gaohangdy/dc/1.0.12/b7f723e6a5b34e398d8d5c467c6cd551b04bcd9cf93e1f19f97c0b028bb50630#3b1055fc5e48229943a6abccd6fd7a93f6e53750"
+  integrity sha512-8tSvsC7JoKSspcI78ZOisv6lT9HbVk66J/ZBHEbbJXDiQc+B0R+f7HfPsw6nphSKMe87GAmJgCMZ9YRtDLKi3g==
+  dependencies:
+    d3 "^6.6.2"
+    d3-cloud "^1.2.5"
+
 "@istanbuljs/load-nyc-config@^1.0.0":
   version "1.1.0"
   resolved "https://registry.npm.taobao.org/@istanbuljs/load-nyc-config/download/@istanbuljs/load-nyc-config-1.1.0.tgz#fd3db1d59ecf7cf121e80650bb86712f9b55eced"
@@ -2680,6 +2688,13 @@ d3-chord@2:
   dependencies:
     d3-path "1 - 2"
 
+d3-cloud@^1.2.5:
+  version "1.2.5"
+  resolved "https://registry.npm.taobao.org/d3-cloud/download/d3-cloud-1.2.5.tgz#3e91564f2d27fba47fcc7d812eb5081ea24c603d"
+  integrity sha1-PpFWTy0n+6R/zH2BLrUIHqJMYD0=
+  dependencies:
+    d3-dispatch "^1.0.3"
+
 "d3-color@1 - 2", d3-color@2:
   version "2.0.0"
   resolved "https://registry.nlark.com/d3-color/download/d3-color-2.0.0.tgz?cache=0&sync_timestamp=1622917792948&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fd3-color%2Fdownload%2Fd3-color-2.0.0.tgz#8d625cab42ed9b8f601a1760a389f7ea9189d62e"
@@ -2703,6 +2718,11 @@ d3-delaunay@5:
   version "2.0.0"
   resolved "https://registry.nlark.com/d3-dispatch/download/d3-dispatch-2.0.0.tgz#8a18e16f76dd3fcaef42163c97b926aa9b55e7cf"
   integrity sha1-ihjhb3bdP8rvQhY8l7kmqptV588=
+
+d3-dispatch@^1.0.3:
+  version "1.0.6"
+  resolved "https://registry.nlark.com/d3-dispatch/download/d3-dispatch-1.0.6.tgz#00d37bcee4dd8cd97729dd893a0ac29caaba5d58"
+  integrity sha1-ANN7zuTdjNl3Kd2JOgrCnKq6XVg=
 
 d3-drag@2:
   version "2.0.0"
@@ -2907,13 +2927,6 @@ data-urls@^2.0.0:
     abab "^2.0.3"
     whatwg-mimetype "^2.3.0"
     whatwg-url "^8.0.0"
-
-dc@^4.0.3:
-  version "4.2.7"
-  resolved "https://registry.nlark.com/dc/download/dc-4.2.7.tgz#f2d812fc4e42adb0d804d148d6316149d966a4f1"
-  integrity sha1-8tgS/E5CrbDYBNFI1jFhSdlmpPE=
-  dependencies:
-    d3 "^6.6.2"
 
 debug@4, debug@^4.0.1, debug@^4.1.0, debug@^4.1.1, debug@^4.2.0:
   version "4.3.2"

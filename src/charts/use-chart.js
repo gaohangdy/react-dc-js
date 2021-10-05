@@ -1,7 +1,7 @@
 // @flow
 
 import { useEffect, useRef } from 'react'
-import { InvalidStateException } from 'dc'
+import { InvalidStateException } from '@gaohangdy/dc'
 import type { MixinProps } from '../mixins'
 
 import { baseMixin } from '../mixins'

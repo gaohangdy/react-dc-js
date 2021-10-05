@@ -7,6 +7,7 @@ import {
   PieChart,
   BubbleChart,
   LineChart,
+  WordcloudChart,
   ChartContext,
 } from '../../dist/es'
 
@@ -100,9 +101,19 @@ function App() {
     () => ({ days: 0, total: 0, avg: 0 })
   )
 
+  const wordGroup = yearlyDimension.group().reduceCount();
+
   return (
     <div className="App">
       <ChartContext>
+        <WordcloudChart 
+          minX="0"
+          minY="0"
+          relativeSize="5"
+          dimension={yearlyDimension}
+          group={wordGroup}
+          valueAccessor={p => p.value}
+        />
         <BubbleChart
           width={990}
           height={250}

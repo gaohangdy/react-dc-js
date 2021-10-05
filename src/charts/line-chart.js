@@ -1,5 +1,5 @@
 import { useContext } from 'react'
-import { lineChart } from 'dc'
+import { lineChart } from '@gaohangdy/dc'
 import { baseMixin, stackMixin } from '../mixins'
 import { BaseChart } from './base-chart'
 import { ChartRegistry } from './chart-context'

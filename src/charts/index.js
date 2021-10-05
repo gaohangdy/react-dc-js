@@ -21,7 +21,8 @@ import {
   seriesChart,
   sunburstChart,
   textFilterWidget,
-} from 'dc'
+  wordcloudChart,
+} from '@gaohangdy/dc'
 import { useChart } from '../charts/use-chart'
 import { baseMixin, stackMixin } from '../mixins'
 import { BaseChart } from './base-chart'
@@ -48,4 +49,7 @@ export const SelectMenu = BaseChart(selectMenu)
 export const SeriesChart = BaseChart(seriesChart)
 export const SunburstChart = BaseChart(sunburstChart)
 export const TextFilterWidget = BaseChart(textFilterWidget)
+
+export const WordcloudChart = BaseChart(wordcloudChart)
+
 export { useChart, LineChart, ChartContext }

@@ -1,8 +1,8 @@
 import React from 'react'
+import * as dc from '@gaohangdy/dc'
 import { render } from '@testing-library/react'
 import crossfilter from 'crossfilter'
 import * as d3 from 'd3'
-import * as dc from 'dc'
 import { BarChart } from 'src/charts'
 import testSet from '../countries.json'
 

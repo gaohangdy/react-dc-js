@@ -1,5 +1,5 @@
 {
-  "name": "@cloud-dashboard/react-dc-js",
+  "name": "@gaohangdy/react-dc-js",
   "version": "0.2.0-beta",
   "description": "🚀 Multi-dimensional charting based on dc.js for React",
   "main": "dist/react-dc.umd.js",
@@ -40,8 +40,9 @@
     "crossfilter2": "^1.5.2"
   },
   "dependencies": {
+    "@gaohangdy/dc": "^1.0.12",
     "cross-env": "^7.0.3",
-    "dc": "^4.0.3"
+    "d3-cloud": "^1.2.5"
   },
   "devDependencies": {
     "@babel/cli": "^7.8.4",
