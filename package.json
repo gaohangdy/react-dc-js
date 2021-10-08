@@ -1,6 +1,6 @@
 {
   "name": "@gaohangdy/react-dc-js",
-  "version": "0.2.0-beta",
+  "version": "0.1.3",
   "description": "🚀 Multi-dimensional charting based on dc.js for React",
   "main": "dist/react-dc.umd.js",
   "module": "dist/es/index.js",
@@ -40,7 +40,7 @@
     "crossfilter2": "^1.5.2"
   },
   "dependencies": {
-    "@gaohangdy/dc": "^1.0.12",
+    "@gaohangdy/dc": "^1.0.15",
     "cross-env": "^7.0.3",
     "d3-cloud": "^1.2.5"
   },

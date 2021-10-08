@@ -1011,10 +1011,10 @@
     exec-sh "^0.3.2"
     minimist "^1.2.0"
 
-"@gaohangdy/dc@^1.0.12":
-  version "1.0.12"
-  resolved "https://npm.pkg.github.com/download/@gaohangdy/dc/1.0.12/b7f723e6a5b34e398d8d5c467c6cd551b04bcd9cf93e1f19f97c0b028bb50630#3b1055fc5e48229943a6abccd6fd7a93f6e53750"
-  integrity sha512-8tSvsC7JoKSspcI78ZOisv6lT9HbVk66J/ZBHEbbJXDiQc+B0R+f7HfPsw6nphSKMe87GAmJgCMZ9YRtDLKi3g==
+"@gaohangdy/dc@^1.0.15":
+  version "1.0.15"
+  resolved "https://npm.pkg.github.com/download/@gaohangdy/dc/1.0.15/b5aebe7d388187a80eef4a9c220d53f30617a82e9f7ed7120e4da2a9f1011b22#621881b4078b75e5927b6c4e9c79dc35ba957dda"
+  integrity sha512-OHvZJVgm7l5yAkOJAXuP8gYo+zkAix1K5+393gAMDxUunuIN35hTJuzPDbEan5331yZc7LsURl4X5wyhndOcRg==
   dependencies:
     d3 "^6.6.2"
     d3-cloud "^1.2.5"
