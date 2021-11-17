@@ -941,8 +941,8 @@
 
 "@babel/preset-react@^7.9.4":
   version "7.14.5"
-  resolved "https://registry.nlark.com/@babel/preset-react/download/@babel/preset-react-7.14.5.tgz?cache=0&sync_timestamp=1623293482012&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Fpreset-react%2Fdownload%2F%40babel%2Fpreset-react-7.14.5.tgz#0fbb769513f899c2c56f3a882fa79673c2d4ab3c"
-  integrity sha1-D7t2lRP4mcLFbzqIL6eWc8LUqzw=
+  resolved "https://registry.yarnpkg.com/@babel/preset-react/-/preset-react-7.14.5.tgz#0fbb769513f899c2c56f3a882fa79673c2d4ab3c"
+  integrity sha512-XFxBkjyObLvBaAvkx1Ie95Iaq4S/GUEIrejyrntQ/VCMKUYvKLoyKxOBzJ2kjA3b6rC9/KL6KXfDC2GqvLiNqQ==
   dependencies:
     "@babel/helper-plugin-utils" "^7.14.5"
     "@babel/helper-validator-option" "^7.14.5"
