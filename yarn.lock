@@ -921,8 +921,8 @@
 
 "@babel/preset-flow@^7.9.0":
   version "7.14.5"
-  resolved "https://registry.nlark.com/@babel/preset-flow/download/@babel/preset-flow-7.14.5.tgz?cache=0&sync_timestamp=1623280618128&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Fpreset-flow%2Fdownload%2F%40babel%2Fpreset-flow-7.14.5.tgz#a1810b0780c8b48ab0bece8e7ab8d0d37712751c"
-  integrity sha1-oYELB4DItIqwvs6OerjQ03cSdRw=
+  resolved "https://registry.yarnpkg.com/@babel/preset-flow/-/preset-flow-7.14.5.tgz#a1810b0780c8b48ab0bece8e7ab8d0d37712751c"
+  integrity sha512-pP5QEb4qRUSVGzzKx9xqRuHUrM/jEzMqdrZpdMA+oUCRgd5zM1qGr5y5+ZgAL/1tVv1H0dyk5t4SKJntqyiVtg==
   dependencies:
     "@babel/helper-plugin-utils" "^7.14.5"
     "@babel/helper-validator-option" "^7.14.5"
